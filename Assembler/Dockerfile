@@ -18,3 +18,5 @@ RUN apt install frc-toolchain -y
 # Install openjdk
 RUN apt install default-jdk -y
 
+# Install git
+RUN apt install git -y
